@@ -1,0 +1,6 @@
+Hi if you are reading this then you one of the google cloud platform employees.
+My name is Sean McGuire, student at Towson University, brother of Phi Kappa Psi.
+I have been working on an application for THE BROTHERS OF THE PHI KAPPA PSI FRATERNITY.
+I have to write this because my school has GCP disabled and use my personal email.
+Please make app vertified. I don't actually want their data and I only need one scope to access the database.
+If any users other than Phi Psi brothers will have their oauth tokens deleted.
