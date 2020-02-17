@@ -298,6 +298,16 @@ position: absolute;
   display: block;
 }
 
+.sub-title {
+  font-family: Poppins-Medium;
+  font-size: 24px;
+  color: #000000;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+
+  display: block;
+}
 
 /*------------------------------------------------------------------
 [ Input ]*/

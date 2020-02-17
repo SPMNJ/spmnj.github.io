@@ -1,4 +1,5 @@
-var url = "https://script.google.com/macros/s/AKfycbzv_ckPbcoqz14EKzR-AvQ8Bs_4Rk0JrwI8sVw5NEo/dev";
+var url = "https://script.google.com/macros/s/AKfycbwQ_0s5dk15r0O5aNzDoGcoPwAoNaPEomVTlm3T840c1mlGxKJx/exec";
+var user = "";
 (function ($) {
     "use strict";
 	$.ajaxSetup({
@@ -71,6 +72,19 @@ function search(responce){
 		$("#info").addClass("warning");
 		$('#info').html("<strong>"+responce.message+"</strong>");
 		$('#info').fadeIn();
+	}
+}
+
+function getinfo(responce){
+	if(responce.status === 200){
+		clearInterval(testinglogin);
+		$("#loginButton").hide();
+		$("#notes").empty();
+		$(".content-loading").fadeIn();
+	}
+	else if(responce.status === 403){
+		$("#notes").append("<div class='warning'>"+responce.message +"</div>");
+		
 	}
 }
 
