@@ -4,3 +4,6 @@
 [submodule "freshman"]
 	path = freshman
 	url = https://github.com/SPMNJ/freshman.git
+[submodule "os4life"]
+	path = os4life
+	url = https://github.com/SPMNJ/os4life.git
