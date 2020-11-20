@@ -7,3 +7,6 @@
 [submodule "os4life"]
 	path = os4life
 	url = https://github.com/SPMNJ/os4life.git
+[submodule "vote-4-luke"]
+	path = vote-4-luke
+	url = https://github.com/SPMNJ/vote-4-luke.git
