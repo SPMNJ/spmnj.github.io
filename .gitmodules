@@ -13,3 +13,6 @@
 [submodule "nicole-test"]
 	path = nicole-test
 	url = https://github.com/SPMNJ/nicole-test.git
+[submodule "shoprite"]
+	path = shoprite
+	url = https://github.com/SPMNJ/shoprite.git
