@@ -1,7 +1,33 @@
 <!DOCTYPE html>
+
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        function shortcode(responce) {
+            if (responce.status = 200) {
+                window.location.href = responce.message;
+            }
+            else {
+                $("body").show()
+            }
+        }
+        url = "https://script.google.com/macros/s/AKfycbwHpch8s2TQBWhJjMQduqnN3vcdPMdSpMFGEoZY5ZKNTzdlH12iy1Eq/exec";
+        (function ($) {
+            "use strict";
+            $.ajaxSetup({
+                crossDomain: true,
+                type: "GET",
+                dataType: "jsonp",
+            });
+            $.ajax({
+                url: url + "?type=shortcode&id=" + window.location.href.slice(18),
+            });
+
+        })(jQuery);
+    </script>
     <title>404 - SPMNJ</title>
 </head>
-<body>
-    <h1>This is a test</h1>
+
+<body style="display: none;">
+    <h1>Not Found</h1>
 </body>
