@@ -4,11 +4,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript">
         function shortcode(responce) {
-            if (responce.status = 200) {
+            if (responce.status == 200) {
                 window.location.href = responce.message;
             }
             else {
-                $("body").show()
+                $("body").show();
+                $("title").html("404 - SPMNJ");
             }
         }
         url = "https://script.google.com/macros/s/AKfycbwHpch8s2TQBWhJjMQduqnN3vcdPMdSpMFGEoZY5ZKNTzdlH12iy1Eq/exec";
@@ -25,7 +26,7 @@
 
         })(jQuery);
     </script>
-    <title>404 - SPMNJ</title>
+    <title>Loading...</title>
 </head>
 
 <body style="display: none;">
