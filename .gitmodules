@@ -16,3 +16,6 @@
 [submodule "shoprite"]
 	path = shoprite
 	url = https://github.com/SPMNJ/shoprite.git
+[submodule "librarypass"]
+	path = librarypass
+	url = https://github.com/SPMNJ/librarypass
