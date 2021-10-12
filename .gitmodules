@@ -19,3 +19,6 @@
 [submodule "librarypass"]
 	path = librarypass
 	url = https://github.com/SPMNJ/librarypass
+[submodule "cosc412project"]
+	path = cosc412project
+	url = https://github.com/CouponFiends/cosc412project.git
