@@ -22,3 +22,6 @@
 [submodule "cosc412project"]
 	path = cosc412project
 	url = https://github.com/CouponFiends/cosc412project.git
+[submodule "cosc457project"]
+	path = cosc457project
+	url = https://github.com/SPMNJ/cosc457project.git
