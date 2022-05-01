@@ -25,3 +25,6 @@
 [submodule "cosc457project"]
 	path = cosc457project
 	url = https://github.com/SPMNJ/cosc457project.git
+[submodule "assassins"]
+	path = assassins
+	url = https://github.com/SPMNJ/assassins.git
