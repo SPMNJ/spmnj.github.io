@@ -28,3 +28,6 @@
 [submodule "assassins"]
 	path = assassins
 	url = https://github.com/SPMNJ/assassins.git
+[submodule "exposed"]
+	path = exposed
+	url = https://github.com/SPMNJ/exposed.git
